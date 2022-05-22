@@ -4,7 +4,7 @@ I enjoy playing 15, thus I've decided to create this game by learning some new s
 
 ![](/for_readme/1.jpg)
 
-## **[Ссылка на проект](https://daniilboyarinkov.github.io/15PuzzleGame/)**
+# **[Ссылка на проект](https://daniilboyarinkov.github.io/15PuzzleGame/)**
 
 ### What was used:
 -   React custom hooks
