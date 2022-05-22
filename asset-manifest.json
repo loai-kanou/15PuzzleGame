@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/15PuzzleGame/static/css/main.c345d7e8.css",
+    "main.js": "/15PuzzleGame/static/js/main.e094e292.js",
+    "index.html": "/15PuzzleGame/index.html",
+    "main.c345d7e8.css.map": "/15PuzzleGame/static/css/main.c345d7e8.css.map",
+    "main.e094e292.js.map": "/15PuzzleGame/static/js/main.e094e292.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c345d7e8.css",
+    "static/js/main.e094e292.js"
+  ]
+}
