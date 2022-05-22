@@ -1,0 +1,99 @@
+body {
+    background-color: #ccc;
+}
+
+.game-header {
+    color: #eee;
+    background-color: #333;
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.game-header > h1 {
+    margin: 0;
+    padding: 1rem;
+}
+
+.moves {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #888;
+    padding-bottom: 1rem;
+}
+
+.point-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.board {
+    user-select: none;
+    background-color: #333;
+    margin: 0 auto;
+    border-radius: 1rem;
+    position: relative;
+    background: rgb(95, 67, 0);
+    background-image: url(/public/img/index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.4rem solid #222;
+    box-shadow: 0 0 2rem black;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 3rem;
+}
+
+.tile {
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+    text-shadow: 0 0 0.1rem black;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background: #666;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.7rem black;
+}
+
+.tile__correct {
+    background-color: #00aa00;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #0004;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.play-again {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #eee;
+    background-color: #333;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: .2rem solid #222;
+}
+
+.play-again:hover {
+    background-color: #444;
+    border: .2rem solid #333;
+}
